@@ -1,0 +1,102 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    max-width: 100px;
+    height: auto;
+}
+
+#top {
+    font-size: 34px;
+    margin-top: 10px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Container styling */
+#container1 {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#container4 {
+    text-align: center;
+    padding: 50px 0; /* Modified padding */
+}
+
+#row1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Button styling */
+.btn {
+    padding: 15px 30px;
+    background-color: #4CAF50; /* Changed button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
+
+/* Food item styling */
+.food-item {
+    display: inline-block; /* Ensures items are displayed in a row */
+    margin: 10px; /* Adjust margin as needed */
+}
+
+.food-item img {
+    width: 250px; /* Increase the width of food images */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

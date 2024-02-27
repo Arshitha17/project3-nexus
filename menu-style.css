@@ -1,0 +1,75 @@
+/* Header styling */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    max-width: 100px;
+    height: auto;
+}
+
+#top {
+    font-size: 34px;
+    margin-top: 10px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Menu container */
+#menu-container {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Dish styling */
+.dish {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* Dish title */
+.dish h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Dish description */
+.dish p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+/* Price */
+.dish p:last-child {
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #444;
+}
+

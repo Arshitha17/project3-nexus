@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary</title>
+    <link rel="stylesheet" href="order-style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Order Summary</h1>
+    </header>
+    <div id="order-details">
+        <h2>Item Details</h2>
+        <div id="item-details">
+            <!-- JavaScript will populate this with the selected item details -->
+        </div>
+    </div>
+    <script>
+        // JavaScript to parse the query parameter and populate the item details
+        window.onload = function () {
+            var queryString = window.location.search;
+            var urlParams = new URLSearchParams(queryString);
+            var itemName = urlParams.get('item');
+            // Populate the item details in the div
+            var itemDetailsDiv = document.getElementById('item-details');
+            itemDetailsDiv.innerHTML = "<p>Selected Item: " + itemName + "</p>";
+        };
+    </script>
+    <footer>
+        Thank you for ordering from us.
+    </footer>
+</body>
+
+</html>
